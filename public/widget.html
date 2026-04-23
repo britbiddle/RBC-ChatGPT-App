@@ -297,24 +297,43 @@
       window.parent.postMessage({ jsonrpc: "2.0", id: Date.now(), method, params }, "*");
     }
 
+    // Signal ready to host — fire immediately and again after short delay
+    function signalReady() {
+      sendMessage("ui/notifications/initialized", { protocolVersion: PROTOCOL_VERSION });
+    }
+
     function handleToolResult(result) {
-      const data = result?.structuredContent ?? result?.content?.[0]?.structuredContent ?? result;
-      if (!data || !data.type) return;
+      // Try every plausible path the bridge might use to pass structuredContent
+      const data =
+        result?.structuredContent ??
+        result?.content?.structuredContent ??
+        result?.content?.[0]?.structuredContent ??
+        (result?.type ? result : null);
+      if (!data?.type) return;
       renderContent(data);
     }
 
     window.addEventListener("message", (event) => {
       const msg = event.data;
       if (!msg || typeof msg !== "object") return;
+
       if (msg.method === "ui/initialize") {
-        sendMessage("ui/notifications/initialized", { protocolVersion: PROTOCOL_VERSION });
+        signalReady();
         return;
       }
       if (msg.method === "ui/notifications/tool-result") {
-        if (msg.params?.result) handleToolResult(msg.params.result);
+        const result = msg.params?.result ?? msg.params ?? msg.result;
+        if (result) handleToolResult(result);
         return;
       }
+      // Some bridge versions send structuredContent as the top-level message
+      if (msg.type && typeof msg.type === "string") {
+        handleToolResult(msg);
+      }
     });
+
+    signalReady();
+    setTimeout(signalReady, 300);
 
     // ── Render dispatcher ─────────────────────────────────────────────────────
     function renderContent(data) {
