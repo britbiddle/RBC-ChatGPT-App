@@ -291,49 +291,42 @@
   </div>
 
   <script>
+    const SERVER = "https://rbc-chatgpt-app-production.up.railway.app";
     const PROTOCOL_VERSION = "2026-01-26";
+    let lastTs = 0;
 
+    // ── Postmessage bridge (keep as fallback) ─────────────────────────────────
     function sendMessage(method, params = {}) {
       window.parent.postMessage({ jsonrpc: "2.0", id: Date.now(), method, params }, "*");
     }
-
-    // Signal ready to host — fire immediately and again after short delay
     function signalReady() {
       sendMessage("ui/notifications/initialized", { protocolVersion: PROTOCOL_VERSION });
     }
-
-    function handleToolResult(result) {
-      // Try every plausible path the bridge might use to pass structuredContent
-      const data =
-        result?.structuredContent ??
-        result?.content?.structuredContent ??
-        result?.content?.[0]?.structuredContent ??
-        (result?.type ? result : null);
-      if (!data?.type) return;
-      renderContent(data);
-    }
-
     window.addEventListener("message", (event) => {
       const msg = event.data;
       if (!msg || typeof msg !== "object") return;
-
-      if (msg.method === "ui/initialize") {
-        signalReady();
-        return;
-      }
+      if (msg.method === "ui/initialize") { signalReady(); return; }
       if (msg.method === "ui/notifications/tool-result") {
         const result = msg.params?.result ?? msg.params ?? msg.result;
-        if (result) handleToolResult(result);
-        return;
-      }
-      // Some bridge versions send structuredContent as the top-level message
-      if (msg.type && typeof msg.type === "string") {
-        handleToolResult(msg);
+        const data = result?.structuredContent ?? (result?.type ? result : null);
+        if (data?.type) renderContent(data);
       }
     });
-
     signalReady();
-    setTimeout(signalReady, 300);
+
+    // ── Poll server directly (bypasses broken postMessage bridge) ─────────────
+    async function poll() {
+      try {
+        const r = await fetch(`${SERVER}/api/latest`);
+        const { data, ts } = await r.json();
+        if (data && ts > lastTs) {
+          lastTs = ts;
+          renderContent(data);
+        }
+      } catch (_) {}
+    }
+    poll();
+    setInterval(poll, 1500);
 
     // ── Render dispatcher ─────────────────────────────────────────────────────
     function renderContent(data) {

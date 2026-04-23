@@ -16,6 +16,9 @@ const books = JSON.parse(readFileSync(join(__dirname, "data/books.json"), "utf8"
 const products = JSON.parse(readFileSync(join(__dirname, "data/products.json"), "utf8"));
 const widgetHtml = readFileSync(join(__dirname, "public/widget.html"), "utf8");
 
+// ── Latest result store (widget polls this to bypass postMessage bridge) ─────
+let latestResult = { data: null, ts: 0 };
+
 // ── Helper: simple relevance scoring ────────────────────────────────────────
 function scoreBook(book, { genres = [], mood = "", theme = "" }) {
   let score = 0;
@@ -117,19 +120,16 @@ function createRBCServer() {
     },
     async () => {
       const current = books[0];
+      const sc = {
+        type: "current_pick",
+        book: formatBook(current),
+        monthLabel: `${current.month}'s Pick`,
+        featured: true,
+      };
+      latestResult = { data: sc, ts: Date.now() };
       return {
-        content: [
-          {
-            type: "text",
-            text: `${current.month}'s Pick: "${current.title}" by ${current.author}`,
-          },
-        ],
-        structuredContent: {
-          type: "current_pick",
-          book: formatBook(current),
-          monthLabel: `${current.month}'s Pick`,
-          featured: true,
-        },
+        content: [{ type: "text", text: `${current.month}'s Pick: "${current.title}" by ${current.author}` }],
+        structuredContent: sc,
       };
     }
   );
@@ -186,20 +186,15 @@ function createRBCServer() {
         .filter(Boolean)
         .join(" · ");
 
+      const sc = {
+        type: "book_recommendations",
+        books: results.map(formatBook),
+        filterSummary,
+      };
+      latestResult = { data: sc, ts: Date.now() };
       return {
-        content: [
-          {
-            type: "text",
-            text: results
-              .map((b) => `"${b.title}" by ${b.author} (${b.genres.join(", ")})`)
-              .join("\n"),
-          },
-        ],
-        structuredContent: {
-          type: "book_recommendations",
-          books: results.map(formatBook),
-          filterSummary,
-        },
+        content: [{ type: "text", text: results.map((b) => `"${b.title}" by ${b.author} (${b.genres.join(", ")})`).join("\n") }],
+        structuredContent: sc,
       };
     }
   );
@@ -228,21 +223,11 @@ function createRBCServer() {
         )
         .slice(0, 5);
 
+      const sc = { type: "search_results", query, count: results.length, books: results.map(formatBook) };
+      latestResult = { data: sc, ts: Date.now() };
       return {
-        content: [
-          {
-            type: "text",
-            text: results.length
-              ? results.map((b) => `"${b.title}" by ${b.author}`).join("\n")
-              : `No RBC books found for "${query}"`,
-          },
-        ],
-        structuredContent: {
-          type: "search_results",
-          query,
-          count: results.length,
-          books: results.map(formatBook),
-        },
+        content: [{ type: "text", text: results.length ? results.map((b) => `"${b.title}" by ${b.author}`).join("\n") : `No RBC books found for "${query}"` }],
+        structuredContent: sc,
       };
     }
   );
@@ -278,17 +263,11 @@ function createRBCServer() {
         };
       }
 
+      const sc = { type: "book_detail", book: formatBook(book) };
+      latestResult = { data: sc, ts: Date.now() };
       return {
-        content: [
-          {
-            type: "text",
-            text: `"${book.title}" by ${book.author} — ${book.description}`,
-          },
-        ],
-        structuredContent: {
-          type: "book_detail",
-          book: formatBook(book),
-        },
+        content: [{ type: "text", text: `"${book.title}" by ${book.author} — ${book.description}` }],
+        structuredContent: sc,
       };
     }
   );
@@ -338,21 +317,16 @@ function createRBCServer() {
             .map((r) => r.p)
         : products.slice(0, limit);
 
+      const sc = {
+        type: "product_recommendations",
+        products: results.map(formatProduct),
+        occasion: occasion || null,
+        budget: budget !== "any" ? budget : null,
+      };
+      latestResult = { data: sc, ts: Date.now() };
       return {
-        content: [
-          {
-            type: "text",
-            text: results
-              .map((p) => `${p.name} by ${p.brand} — ${p.priceDisplay}`)
-              .join("\n"),
-          },
-        ],
-        structuredContent: {
-          type: "product_recommendations",
-          products: results.map(formatProduct),
-          occasion: occasion || null,
-          budget: budget !== "any" ? budget : null,
-        },
+        content: [{ type: "text", text: results.map((p) => `${p.name} by ${p.brand} — ${p.priceDisplay}`).join("\n") }],
+        structuredContent: sc,
       };
     }
   );
@@ -376,6 +350,12 @@ const httpServer = createServer(async (req, res) => {
   if (req.method === "GET" && req.url === "/widget") {
     res.writeHead(200, { "Content-Type": "text/html" });
     res.end(widgetHtml);
+    return;
+  }
+
+  if (req.method === "GET" && req.url === "/api/latest") {
+    res.writeHead(200, { "Content-Type": "application/json" });
+    res.end(JSON.stringify(latestResult));
     return;
   }
 
