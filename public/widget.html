@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reese's Book Club</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    /* ── Design tokens ── */
+    :root {
+      --cream: #FAF7F2;
+      --warm-white: #FEFCF8;
+      --rbc-yellow: #F5E03A;
+      --tan: #E8DDD0;
+      --caramel: #C8A882;
+      --bark: #2C1810;
+      --stone: #9B8E84;
+      --radius: 16px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'DM Sans', system-ui, sans-serif;
+      background: var(--cream);
+      color: var(--bark);
+      padding: 20px;
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .logo-badge {
+      background: var(--rbc-yellow);
+      color: var(--bark);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      padding: 5px 12px;
+      border-radius: 100px;
+    }
+
+    /* ── Section heading ── */
+    .section-label {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--stone);
+      margin-bottom: 14px;
+    }
+
+    /* ── Book card ── */
+    .book-card {
+      background: var(--warm-white);
+      border-radius: var(--radius);
+      border: 1px solid rgba(232,221,208,0.6);
+      box-shadow: 0 2px 12px rgba(44,24,16,0.06);
+      overflow: hidden;
+      margin-bottom: 14px;
+      transition: transform 0.15s ease;
+    }
+    .book-card:hover { transform: translateY(-1px); }
+
+    .book-card-inner {
+      display: flex;
+      gap: 16px;
+      padding: 18px;
+    }
+    .book-cover {
+      width: 72px;
+      height: 100px;
+      border-radius: 8px;
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 6px;
+      box-shadow: 2px 4px 12px rgba(0,0,0,0.18);
+    }
+    .book-cover-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 8px;
+      font-weight: 700;
+      color: rgba(255,255,255,0.9);
+      text-align: center;
+      line-height: 1.3;
+    }
+    .book-info { flex: 1; min-width: 0; }
+    .book-month {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--stone);
+      margin-bottom: 4px;
+    }
+    .book-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 2px;
+    }
+    .book-author {
+      font-size: 13px;
+      color: var(--stone);
+      margin-bottom: 8px;
+    }
+    .genre-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-bottom: 10px;
+    }
+    .genre-tag {
+      background: var(--tan);
+      color: var(--stone);
+      font-size: 9px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 100px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    /* Featured book (current pick) */
+    .book-card.featured .book-reese-note {
+      border-top: 1px solid var(--tan);
+      padding: 14px 18px;
+    }
+    .reese-note-label {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--stone);
+      margin-bottom: 6px;
+    }
+    .reese-note-text {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-style: italic;
+      font-size: 14px;
+      line-height: 1.6;
+      color: var(--bark);
+    }
+
+    /* ── CTA button ── */
+    .cta-row {
+      padding: 0 18px 16px;
+    }
+    .cta-btn {
+      display: inline-block;
+      background: var(--rbc-yellow);
+      color: var(--bark);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 9px 18px;
+      border-radius: 100px;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+    .cta-btn:hover { background: #e8d235; }
+
+    /* ── Product card ── */
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+    .product-card {
+      background: var(--warm-white);
+      border-radius: var(--radius);
+      border: 1px solid rgba(232,221,208,0.6);
+      box-shadow: 0 2px 8px rgba(44,24,16,0.05);
+      overflow: hidden;
+      transition: transform 0.15s ease;
+    }
+    .product-card:hover { transform: translateY(-1px); }
+
+    .product-image {
+      height: 90px;
+      width: 100%;
+    }
+    .product-body { padding: 12px 14px; }
+    .product-category {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--stone);
+      margin-bottom: 3px;
+    }
+    .product-name {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.3;
+      margin-bottom: 1px;
+    }
+    .product-brand {
+      font-size: 11px;
+      color: var(--stone);
+      margin-bottom: 6px;
+    }
+    .product-price {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--bark);
+      margin-bottom: 8px;
+    }
+    .product-note {
+      background: var(--cream);
+      border-radius: 10px;
+      padding: 8px 10px;
+      margin-bottom: 10px;
+    }
+    .product-note-label {
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--stone);
+      margin-bottom: 3px;
+    }
+    .product-note-text {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-style: italic;
+      font-size: 11px;
+      line-height: 1.5;
+      color: var(--bark);
+    }
+    .product-link {
+      display: block;
+      text-align: center;
+      background: var(--bark);
+      color: var(--rbc-yellow);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      padding: 7px;
+      border-radius: 8px;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: opacity 0.15s;
+    }
+    .product-link:hover { opacity: 0.85; }
+
+    /* ── Empty / loading state ── */
+    .empty-state {
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--stone);
+    }
+    .empty-icon { font-size: 40px; margin-bottom: 12px; }
+    .empty-text {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-style: italic;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    /* ── Not found ── */
+    .not-found {
+      background: var(--warm-white);
+      border-radius: var(--radius);
+      border: 1px solid var(--tan);
+      padding: 20px;
+      text-align: center;
+    }
+    .not-found-text {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-style: italic;
+      font-size: 15px;
+      color: var(--stone);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <span class="logo-badge">Reese's Book Club</span>
+  </div>
+
+  <!-- Content rendered here by JS -->
+  <div id="content">
+    <div class="empty-state">
+      <div class="empty-icon">📚</div>
+      <p class="empty-text">Ask me for a book recommendation or what Reese is reading this month...</p>
+    </div>
+  </div>
+
+  <script>
+    const PROTOCOL_VERSION = "2026-01-26";
+    let isInitialized = false;
+
+    // ── MCP postMessage bridge ──────────────────────────────────────────────
+    function sendMessage(method, params = {}) {
+      const msg = {
+        jsonrpc: "2.0",
+        id: Date.now(),
+        method,
+        params,
+      };
+      window.parent.postMessage(msg, "*");
+    }
+
+    function handleToolResult(result) {
+      const data = result?.content?.[0]?.structuredContent ?? result?.structuredContent ?? result;
+      if (!data || !data.type) return;
+      renderContent(data);
+    }
+
+    window.addEventListener("message", (event) => {
+      const msg = event.data;
+      if (!msg || typeof msg !== "object") return;
+
+      // Initialization
+      if (msg.method === "ui/initialize") {
+        isInitialized = true;
+        sendMessage("ui/notifications/initialized", {
+          protocolVersion: PROTOCOL_VERSION,
+        });
+        return;
+      }
+
+      // Tool results pushed from the host
+      if (msg.method === "ui/notifications/tool-result") {
+        const result = msg.params?.result;
+        if (result) handleToolResult(result);
+        return;
+      }
+    });
+
+    // ── Render functions ────────────────────────────────────────────────────
+    function renderContent(data) {
+      const root = document.getElementById("content");
+
+      switch (data.type) {
+        case "current_pick":
+          root.innerHTML = renderCurrentPick(data);
+          break;
+        case "book_recommendations":
+        case "search_results":
+          root.innerHTML = renderBookList(data);
+          break;
+        case "book_detail":
+          root.innerHTML = renderBookDetail(data.book);
+          break;
+        case "product_recommendations":
+          root.innerHTML = renderProductGrid(data);
+          break;
+        case "not_found":
+          root.innerHTML = `<div class="not-found"><p class="not-found-text">${data.message}</p></div>`;
+          break;
+        default:
+          break;
+      }
+    }
+
+    function genreTagsHtml(genres) {
+      return `<div class="genre-tags">${genres.map(g => `<span class="genre-tag">${g}</span>`).join("")}</div>`;
+    }
+
+    function renderCurrentPick(data) {
+      const book = data.book;
+      return `
+        <p class="section-label">${data.monthLabel || "This Month's Pick"}</p>
+        <div class="book-card featured">
+          <div class="book-card-inner">
+            <div class="book-cover" style="background:${book.coverColor}">
+              <div class="book-cover-title">${book.title}</div>
+            </div>
+            <div class="book-info">
+              <div class="book-title">${book.title}</div>
+              <div class="book-author">${book.author}</div>
+              ${genreTagsHtml(book.genres)}
+              <p style="font-size:12px;color:var(--stone);line-height:1.5;">${book.description}</p>
+            </div>
+          </div>
+          <div class="book-reese-note">
+            <div class="reese-note-label">A Note from Reese</div>
+            <p class="reese-note-text">"${book.reeseNote}"</p>
+          </div>
+          <div class="cta-row">
+            <a href="${book.buyLink}" target="_blank" class="cta-btn">Get the Book →</a>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderBookList(data) {
+      const books = data.books;
+      if (!books || books.length === 0) {
+        return `<div class="empty-state"><div class="empty-icon">🔍</div><p class="empty-text">No books found for that search. Try a different genre or theme!</p></div>`;
+      }
+      const label = data.filterSummary
+        ? `Picks for: ${data.filterSummary}`
+        : data.query
+        ? `Results for "${data.query}"`
+        : "RBC Picks for You";
+
+      return `
+        <p class="section-label">${label}</p>
+        ${books.map(book => `
+          <div class="book-card">
+            <div class="book-card-inner">
+              <div class="book-cover" style="background:${book.coverColor}">
+                <div class="book-cover-title">${book.title}</div>
+              </div>
+              <div class="book-info">
+                ${book.month ? `<div class="book-month">${book.month}</div>` : ""}
+                <div class="book-title">${book.title}</div>
+                <div class="book-author">${book.author}</div>
+                ${genreTagsHtml(book.genres)}
+                <p style="font-size:11px;color:var(--stone);line-height:1.5;font-style:italic;font-family:'Playfair Display',serif;">"${book.reeseNote.slice(0, 120)}${book.reeseNote.length > 120 ? "…" : ""}"</p>
+              </div>
+            </div>
+            <div class="cta-row">
+              <a href="${book.buyLink}" target="_blank" class="cta-btn">Get the Book →</a>
+            </div>
+          </div>
+        `).join("")}
+      `;
+    }
+
+    function renderBookDetail(book) {
+      return `
+        <p class="section-label">Book Details</p>
+        <div class="book-card featured">
+          <div class="book-card-inner">
+            <div class="book-cover" style="background:${book.coverColor}">
+              <div class="book-cover-title">${book.title}</div>
+            </div>
+            <div class="book-info">
+              ${book.month ? `<div class="book-month">${book.month}</div>` : ""}
+              <div class="book-title">${book.title}</div>
+              <div class="book-author">${book.author}</div>
+              ${genreTagsHtml(book.genres)}
+            </div>
+          </div>
+          <div style="padding: 0 18px 14px;">
+            <p style="font-size:13px;line-height:1.6;color:var(--stone);">${book.description}</p>
+          </div>
+          <div class="book-reese-note">
+            <div class="reese-note-label">A Note from Reese</div>
+            <p class="reese-note-text">"${book.reeseNote}"</p>
+          </div>
+          <div class="cta-row">
+            <a href="${book.buyLink}" target="_blank" class="cta-btn">Get the Book →</a>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderProductGrid(data) {
+      const prods = data.products;
+      if (!prods || prods.length === 0) {
+        return `<div class="empty-state"><div class="empty-icon">🛍️</div><p class="empty-text">No products found. Try a different category or occasion!</p></div>`;
+      }
+      const label = data.occasion
+        ? `Perfect for: ${data.occasion}`
+        : "Reese's Picks";
+
+      return `
+        <p class="section-label">${label}</p>
+        <div class="product-grid">
+          ${prods.map(p => `
+            <div class="product-card">
+              <div class="product-image" style="background:${p.imageColor}"></div>
+              <div class="product-body">
+                <div class="product-category">${p.category}</div>
+                <div class="product-name">${p.name}</div>
+                <div class="product-brand">${p.brand}</div>
+                <div class="product-price">${p.price}</div>
+                <div class="product-note">
+                  <div class="product-note-label">Why Reese loves this</div>
+                  <p class="product-note-text">"${p.whyReeseLovesIt}"</p>
+                </div>
+                <a href="${p.url}" target="_blank" class="product-link">Shop Now →</a>
+              </div>
+            </div>
+          `).join("")}
+        </div>
+      `;
+    }
+
+    // Auto-initialize (sends ready signal to host)
+    sendMessage("ui/initialize", { protocolVersion: PROTOCOL_VERSION });
+  </script>
+</body>
+</html>
