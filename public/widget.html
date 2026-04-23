@@ -206,6 +206,26 @@
       height: 120px;
       width: 100%;
     }
+    img.featured-cover {
+      width: 100%;
+      height: 190px;
+      object-fit: cover;
+      display: block;
+    }
+    img.book-cover-portrait {
+      width: 72px;
+      height: 102px;
+      border-radius: 8px;
+      object-fit: cover;
+      flex-shrink: 0;
+      box-shadow: 2px 4px 12px rgba(0,0,0,0.18);
+    }
+    img.product-image-block {
+      height: 120px;
+      width: 100%;
+      object-fit: cover;
+      display: block;
+    }
     .product-body { padding: 14px 16px 0; }
     .product-category {
       font-size: 10px;
@@ -354,7 +374,8 @@
       return `
         <div class="card">
           <span class="featured-badge">${label}</span>
-          <div class="featured-cover" style="background:${b.coverColor}">
+          <div class="featured-cover" style="${b.coverUrl ? '' : 'background:' + b.coverColor}">
+            ${b.coverUrl ? `<img src="${b.coverUrl}" alt="${b.title}" style="width:100%;height:100%;object-fit:cover;display:block;">` : ''}
             <span class="featured-cover-genre">${b.genres[0] || "Fiction"}</span>
           </div>
           <div class="featured-info">
@@ -386,9 +407,10 @@
         ${books.map(b => `
           <div class="card">
             <div class="book-row">
-              <div class="book-cover-portrait" style="background:${b.coverColor}">
-                <span class="book-cover-label">${b.title}</span>
-              </div>
+              ${b.coverUrl
+                ? `<img class="book-cover-portrait" src="${b.coverUrl}" alt="${b.title}">`
+                : `<div class="book-cover-portrait" style="background:${b.coverColor}"><span class="book-cover-label">${b.title}</span></div>`
+              }
               <div class="book-info">
                 ${b.month ? `<div class="book-month">${b.month}</div>` : ""}
                 <div class="book-title">${b.title}</div>
@@ -411,9 +433,10 @@
         <p class="section-label">Book Details</p>
         <div class="card">
           <div class="book-row">
-            <div class="book-cover-portrait" style="background:${b.coverColor}">
-              <span class="book-cover-label">${b.title}</span>
-            </div>
+            ${b.coverUrl
+              ? `<img class="book-cover-portrait" src="${b.coverUrl}" alt="${b.title}">`
+              : `<div class="book-cover-portrait" style="background:${b.coverColor}"><span class="book-cover-label">${b.title}</span></div>`
+            }
             <div class="book-info">
               ${b.month ? `<div class="book-month">${b.month}</div>` : ""}
               <div class="book-title">${b.title}</div>
@@ -442,7 +465,10 @@
         <p class="section-label">${label}</p>
         ${prods.map(p => `
           <div class="card">
-            <div class="product-image-block" style="background:${p.imageColor}"></div>
+            ${p.imageUrl
+              ? `<img class="product-image-block" src="${p.imageUrl}" alt="${p.name}">`
+              : `<div class="product-image-block" style="background:${p.imageColor}"></div>`
+            }
             <div class="product-body">
               <div class="product-category">${p.category}</div>
               <div class="product-name">${p.name}</div>

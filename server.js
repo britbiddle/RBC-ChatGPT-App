@@ -62,6 +62,7 @@ function formatBook(book) {
     description: book.description,
     reeseNote: book.reeseNote,
     coverColor: book.coverColor,
+    coverUrl: book.coverUrl || null,
     buyLink: book.buyLinks.hardcover,
   };
 }
@@ -77,6 +78,7 @@ function formatProduct(p) {
     tags: p.tags,
     url: p.affiliateUrl,
     imageColor: p.imageColor,
+    imageUrl: p.imageUrl || null,
   };
 }
 

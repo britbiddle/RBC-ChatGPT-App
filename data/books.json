@@ -5,8 +5,18 @@
     "author": "Emma Brodie",
     "month": "April 2026",
     "year": 2026,
-    "genres": ["Contemporary Fiction", "Romance"],
-    "themes": ["summer", "love", "identity", "self-discovery", "escape", "second chances"],
+    "genres": [
+      "Contemporary Fiction",
+      "Romance"
+    ],
+    "themes": [
+      "summer",
+      "love",
+      "identity",
+      "self-discovery",
+      "escape",
+      "second chances"
+    ],
     "description": "A sweeping summer romance about a woman who escapes to a coastal town and finds herself — and an unexpected love — among the waves and locals who keep the place alive.",
     "reeseNote": "I fell head over heels for this book. It's the kind of summer romance that makes you want to drop everything and drive to the beach. Emma Brodie writes love like it's the most natural thing in the world.",
     "coverColor": "#5B93B8",
@@ -22,8 +32,18 @@
     "author": "Rachel Hochhauser",
     "month": "March 2026",
     "year": 2026,
-    "genres": ["Historical Fiction", "Fairy Tale Retelling"],
-    "themes": ["villainy", "women", "power", "misunderstood", "history", "family"],
+    "genres": [
+      "Historical Fiction",
+      "Fairy Tale Retelling"
+    ],
+    "themes": [
+      "villainy",
+      "women",
+      "power",
+      "misunderstood",
+      "history",
+      "family"
+    ],
     "description": "A bold reimagining of Cinderella's stepmother — the story of a complex woman surviving in a world that gave her no good choices, told with fierce intelligence and dark wit.",
     "reeseNote": "This book completely turned me upside down. You will never think about the villain of a fairy tale the same way again. Rachel Hochhauser is the real deal.",
     "coverColor": "#7A3F5E",
@@ -39,8 +59,19 @@
     "author": "Philippa Malicka",
     "month": "February 2026",
     "year": 2026,
-    "genres": ["Thriller", "Legal Drama", "Psychological"],
-    "themes": ["betrayal", "truth", "justice", "women", "secrets", "therapist"],
+    "genres": [
+      "Thriller",
+      "Legal Drama",
+      "Psychological"
+    ],
+    "themes": [
+      "betrayal",
+      "truth",
+      "justice",
+      "women",
+      "secrets",
+      "therapist"
+    ],
     "description": "A therapist stands accused of a crime she didn't commit — and the only person who can save her is someone she can't fully trust. A razor-sharp legal thriller with a devastating twist.",
     "reeseNote": "I was absolutely glued to this book. The twists just keep coming and the ending is one I did NOT see coming. Philippa Malicka is an incredible new voice in thriller.",
     "coverColor": "#2C4A3E",
@@ -56,8 +87,18 @@
     "author": "Laura Dave",
     "month": "January 2026",
     "year": 2026,
-    "genres": ["Mystery", "Romance", "Thriller"],
-    "themes": ["missing person", "marriage", "secrets", "love", "suspense"],
+    "genres": [
+      "Mystery",
+      "Romance",
+      "Thriller"
+    ],
+    "themes": [
+      "missing person",
+      "marriage",
+      "secrets",
+      "love",
+      "suspense"
+    ],
     "description": "When a woman's husband disappears without a trace, she begins to unravel the secrets he kept — and falls headlong into a mystery that puts everything she thought she knew in question.",
     "reeseNote": "Laura Dave is one of my absolute favorites and she has done it again. I started this at 9pm and finished it at 2am. I could not put it down.",
     "coverColor": "#8B4513",
@@ -73,8 +114,19 @@
     "author": "Charlotte McConaghy",
     "month": "November 2025",
     "year": 2025,
-    "genres": ["Literary Fiction", "Mystery", "Atmospheric"],
-    "themes": ["isolation", "island", "identity", "survival", "wild nature", "redemption"],
+    "genres": [
+      "Literary Fiction",
+      "Mystery",
+      "Atmospheric"
+    ],
+    "themes": [
+      "isolation",
+      "island",
+      "identity",
+      "survival",
+      "wild nature",
+      "redemption"
+    ],
     "description": "A mysterious woman washes ashore on a remote island and upends the lives of the isolated family living there. Atmospheric and haunting, full of wild beauty and dark secrets.",
     "reeseNote": "Charlotte McConaghy writes nature like no one else. This book is moody and gorgeous and impossible to put down. I loved every wild, dark page of it.",
     "coverColor": "#3D5A73",
@@ -82,7 +134,8 @@
       "hardcover": "https://bookshop.org/search?keywords=Wild+Dark+Shore+Charlotte+McConaghy",
       "ebook": "https://bookshop.org/search?keywords=Wild+Dark+Shore+Charlotte+McConaghy",
       "audio": "https://bookshop.org/search?keywords=Wild+Dark+Shore+Charlotte+McConaghy"
-    }
+    },
+    "coverUrl": "https://covers.openlibrary.org/b/id/15146235-L.jpg"
   },
   {
     "id": "great-big-beautiful-life",
@@ -90,8 +143,18 @@
     "author": "Emily Henry",
     "month": "May 2025",
     "year": 2025,
-    "genres": ["Romance", "Contemporary Fiction"],
-    "themes": ["writers", "island", "love", "creative life", "ambition", "banter"],
+    "genres": [
+      "Romance",
+      "Contemporary Fiction"
+    ],
+    "themes": [
+      "writers",
+      "island",
+      "love",
+      "creative life",
+      "ambition",
+      "banter"
+    ],
     "description": "Two rival writers are sent to a remote island to profile the same reclusive subject — and find themselves falling for each other in the most inconvenient, wonderful way.",
     "reeseNote": "Emily Henry is a genius. I laughed, I cried, I swooned. This is the summer romance of the year and I am not exaggerating even a little bit.",
     "coverColor": "#D4845A",
@@ -99,7 +162,8 @@
       "hardcover": "https://bookshop.org/search?keywords=Great+Big+Beautiful+Life+Emily+Henry",
       "ebook": "https://bookshop.org/search?keywords=Great+Big+Beautiful+Life+Emily+Henry",
       "audio": "https://bookshop.org/search?keywords=Great+Big+Beautiful+Life+Emily+Henry"
-    }
+    },
+    "coverUrl": "https://covers.openlibrary.org/b/id/15149787-L.jpg"
   },
   {
     "id": "slow-dance",
@@ -107,8 +171,17 @@
     "author": "Rainbow Rowell",
     "month": "August 2024",
     "year": 2024,
-    "genres": ["Romance", "Contemporary Fiction"],
-    "themes": ["second chances", "hometown love", "nostalgia", "family", "growing up"],
+    "genres": [
+      "Romance",
+      "Contemporary Fiction"
+    ],
+    "themes": [
+      "second chances",
+      "hometown love",
+      "nostalgia",
+      "family",
+      "growing up"
+    ],
     "description": "Old flames reunite in their hometown for a high school reunion — and discover the feelings they buried weren't buried nearly as deep as they thought.",
     "reeseNote": "Rainbow Rowell gets to the heart of love in a way that just GETS me every time. Slow Dance made me feel like I was 17 again — in the best possible way.",
     "coverColor": "#C4A882",
@@ -116,7 +189,8 @@
       "hardcover": "https://bookshop.org/search?keywords=Slow+Dance+Rainbow+Rowell",
       "ebook": "https://bookshop.org/search?keywords=Slow+Dance+Rainbow+Rowell",
       "audio": "https://bookshop.org/search?keywords=Slow+Dance+Rainbow+Rowell"
-    }
+    },
+    "coverUrl": "https://covers.openlibrary.org/b/id/14642715-L.jpg"
   },
   {
     "id": "the-cliffs",
@@ -124,8 +198,18 @@
     "author": "J. Courtney Sullivan",
     "month": "July 2024",
     "year": 2024,
-    "genres": ["Literary Fiction", "Historical Fiction", "Mystery"],
-    "themes": ["old house", "family secrets", "New England", "generations", "history"],
+    "genres": [
+      "Literary Fiction",
+      "Historical Fiction",
+      "Mystery"
+    ],
+    "themes": [
+      "old house",
+      "family secrets",
+      "New England",
+      "generations",
+      "history"
+    ],
     "description": "A woman buys an old house on the Maine coast and discovers it holds secrets that span generations — a richly layered novel about history, family, and what we inherit.",
     "reeseNote": "J. Courtney Sullivan has written a masterpiece. This book feels like peeling back the layers of an old painting — each layer more beautiful and more haunting than the last.",
     "coverColor": "#6B8E6F",
@@ -141,8 +225,18 @@
     "author": "Ashley Elston",
     "month": "January 2024",
     "year": 2024,
-    "genres": ["Thriller", "Mystery", "Suspense"],
-    "themes": ["con artist", "identity", "deception", "crime", "dangerous love"],
+    "genres": [
+      "Thriller",
+      "Mystery",
+      "Suspense"
+    ],
+    "themes": [
+      "con artist",
+      "identity",
+      "deception",
+      "crime",
+      "dangerous love"
+    ],
     "description": "A woman who lives by lies falls for a man who may be playing the same game — a fast, smart thriller where no one is who they claim to be.",
     "reeseNote": "This one had me questioning EVERYTHING. The twists are next level and the ending is absolutely wild. Ashley Elston is a thriller machine.",
     "coverColor": "#2C2C3E",
@@ -150,7 +244,8 @@
       "hardcover": "https://bookshop.org/search?keywords=First+Lie+Wins+Ashley+Elston",
       "ebook": "https://bookshop.org/search?keywords=First+Lie+Wins+Ashley+Elston",
       "audio": "https://bookshop.org/search?keywords=First+Lie+Wins+Ashley+Elston"
-    }
+    },
+    "coverUrl": "https://covers.openlibrary.org/b/id/14562551-L.jpg"
   },
   {
     "id": "yellowface",
@@ -158,8 +253,19 @@
     "author": "R.F. Kuang",
     "month": "July 2023",
     "year": 2023,
-    "genres": ["Literary Fiction", "Satire", "Thriller"],
-    "themes": ["publishing", "race", "identity", "ambition", "guilt", "social media"],
+    "genres": [
+      "Literary Fiction",
+      "Satire",
+      "Thriller"
+    ],
+    "themes": [
+      "publishing",
+      "race",
+      "identity",
+      "ambition",
+      "guilt",
+      "social media"
+    ],
     "description": "A white author steals the manuscript of her Chinese-American friend who just died and publishes it as her own — a darkly funny, searing satire of publishing and privilege.",
     "reeseNote": "This book made me uncomfortable in the most important way. R.F. Kuang is fearless. Yellowface is the kind of book the industry needs — and honestly everyone needs to read.",
     "coverColor": "#E8C547",
@@ -167,7 +273,8 @@
       "hardcover": "https://bookshop.org/a/106/9780063250932",
       "ebook": "https://bookshop.org/a/106/9780063250932",
       "audio": "https://bookshop.org/a/106/9780063250932"
-    }
+    },
+    "coverUrl": "https://covers.openlibrary.org/b/id/13195421-L.jpg"
   },
   {
     "id": "tom-lake",
@@ -175,8 +282,18 @@
     "author": "Ann Patchett",
     "month": "August 2023",
     "year": 2023,
-    "genres": ["Literary Fiction", "Family Drama"],
-    "themes": ["memory", "family", "storytelling", "theater", "first love", "summer"],
+    "genres": [
+      "Literary Fiction",
+      "Family Drama"
+    ],
+    "themes": [
+      "memory",
+      "family",
+      "storytelling",
+      "theater",
+      "first love",
+      "summer"
+    ],
     "description": "A mother tells her three daughters about a summer of theater and a love affair that defined her youth — a luminous, wise novel about memory, storytelling, and what it means to have lived.",
     "reeseNote": "Ann Patchett is one of the greatest living writers, full stop. Tom Lake is warm and beautiful and made me call my own mother the second I finished.",
     "coverColor": "#8FBC8F",
@@ -184,7 +301,8 @@
       "hardcover": "https://bookshop.org/a/106/9780063324084",
       "ebook": "https://bookshop.org/a/106/9780063324084",
       "audio": "https://bookshop.org/a/106/9780063324084"
-    }
+    },
+    "coverUrl": "https://covers.openlibrary.org/b/id/13454692-L.jpg"
   },
   {
     "id": "the-women",
@@ -192,8 +310,19 @@
     "author": "Kristin Hannah",
     "month": "March 2024",
     "year": 2024,
-    "genres": ["Literary Fiction", "Historical Fiction", "War"],
-    "themes": ["Vietnam", "women soldiers", "heroism", "invisibility", "trauma", "friendship"],
+    "genres": [
+      "Literary Fiction",
+      "Historical Fiction",
+      "War"
+    ],
+    "themes": [
+      "Vietnam",
+      "women soldiers",
+      "heroism",
+      "invisibility",
+      "trauma",
+      "friendship"
+    ],
     "description": "The story of Frankie McGrath, one of the first women to serve as a combat nurse in Vietnam — about sacrifice, about being unseen, and about finally finding your voice.",
     "reeseNote": "This book broke me open. Frankie McGrath's story is one every woman should read — about sacrifice, about being unseen, about finally finding your voice. I couldn't put it down.",
     "coverColor": "#8B6F5E",
@@ -201,7 +330,8 @@
       "hardcover": "https://bookshop.org/a/106/9781250178633",
       "ebook": "https://bookshop.org/a/106/9781250178633",
       "audio": "https://bookshop.org/a/106/9781250178633"
-    }
+    },
+    "coverUrl": "https://covers.openlibrary.org/b/id/14631595-L.jpg"
   },
   {
     "id": "the-last-thing-he-told-me",
@@ -209,8 +339,18 @@
     "author": "Laura Dave",
     "month": "May 2021",
     "year": 2021,
-    "genres": ["Thriller", "Mystery", "Suspense"],
-    "themes": ["secrets", "marriage", "survival", "identity", "on the run"],
+    "genres": [
+      "Thriller",
+      "Mystery",
+      "Suspense"
+    ],
+    "themes": [
+      "secrets",
+      "marriage",
+      "survival",
+      "identity",
+      "on the run"
+    ],
     "description": "A woman discovers her husband has been hiding a dangerous secret — and she'll have to risk everything to protect her stepdaughter and uncover the truth before it's too late.",
     "reeseNote": "I cannot believe how fast I read this. Laura Dave writes thriller the way it should be written — propulsive and emotionally devastating all at once.",
     "coverColor": "#4A6741",
@@ -218,7 +358,8 @@
       "hardcover": "https://bookshop.org/a/106/9781501171345",
       "ebook": "https://bookshop.org/a/106/9781501171345",
       "audio": "https://bookshop.org/a/106/9781501171345"
-    }
+    },
+    "coverUrl": "https://covers.openlibrary.org/b/id/10571017-L.jpg"
   },
   {
     "id": "the-nightingale",
@@ -226,8 +367,19 @@
     "author": "Kristin Hannah",
     "month": "March 2023",
     "year": 2023,
-    "genres": ["Historical Fiction", "War", "Literary Fiction"],
-    "themes": ["WWII", "sisters", "resistance", "courage", "France", "survival"],
+    "genres": [
+      "Historical Fiction",
+      "War",
+      "Literary Fiction"
+    ],
+    "themes": [
+      "WWII",
+      "sisters",
+      "resistance",
+      "courage",
+      "France",
+      "survival"
+    ],
     "description": "Two sisters in Nazi-occupied France take very different paths to survive the war — one of the most powerful novels about female courage ever written.",
     "reeseNote": "Kristin Hannah is in a category all her own. This book wrecked me — in the best, most important way. The kind of story that changes you.",
     "coverColor": "#5B6E8A",
@@ -235,7 +387,8 @@
       "hardcover": "https://bookshop.org/a/106/9781250301697",
       "ebook": "https://bookshop.org/a/106/9781250301697",
       "audio": "https://bookshop.org/a/106/9781250301697"
-    }
+    },
+    "coverUrl": "https://covers.openlibrary.org/b/id/8314147-L.jpg"
   },
   {
     "id": "the-spanish-love-deception",
@@ -243,8 +396,17 @@
     "author": "Elena Armas",
     "month": "September 2021",
     "year": 2021,
-    "genres": ["Romance", "Contemporary Fiction"],
-    "themes": ["enemies to lovers", "fake dating", "travel", "Spain", "slow burn"],
+    "genres": [
+      "Romance",
+      "Contemporary Fiction"
+    ],
+    "themes": [
+      "enemies to lovers",
+      "fake dating",
+      "travel",
+      "Spain",
+      "slow burn"
+    ],
     "description": "When she needs a date to her sister's wedding in Spain, she reluctantly turns to the one man she can't stand — setting off a slow-burn romance she absolutely did not plan for.",
     "reeseNote": "This book is pure joy from start to finish. The banter! The slow burn! Elena Armas completely won me over. I read it in one sitting.",
     "coverColor": "#D4625A",
@@ -252,7 +414,8 @@
       "hardcover": "https://bookshop.org/a/106/9781982177478",
       "ebook": "https://bookshop.org/a/106/9781982177478",
       "audio": "https://bookshop.org/a/106/9781982177478"
-    }
+    },
+    "coverUrl": "https://covers.openlibrary.org/b/id/14425253-L.jpg"
   },
   {
     "id": "people-we-meet-on-vacation",
@@ -260,8 +423,18 @@
     "author": "Emily Henry",
     "month": "June 2021",
     "year": 2021,
-    "genres": ["Romance", "Contemporary Fiction"],
-    "themes": ["best friends", "travel", "love", "friendship", "longing", "summer"],
+    "genres": [
+      "Romance",
+      "Contemporary Fiction"
+    ],
+    "themes": [
+      "best friends",
+      "travel",
+      "love",
+      "friendship",
+      "longing",
+      "summer"
+    ],
     "description": "Best friends who fell in love on vacation — and haven't spoken in two years. A heartfelt, funny, swoony story told across summers and the spaces between.",
     "reeseNote": "Emily Henry knows exactly how to break your heart in the most wonderful way. I love this book so much it's embarrassing.",
     "coverColor": "#6BAED6",
@@ -269,7 +442,8 @@
       "hardcover": "https://bookshop.org/a/106/9781984806758",
       "ebook": "https://bookshop.org/a/106/9781984806758",
       "audio": "https://bookshop.org/a/106/9781984806758"
-    }
+    },
+    "coverUrl": "https://covers.openlibrary.org/b/id/10476782-L.jpg"
   },
   {
     "id": "beach-read",
@@ -277,8 +451,17 @@
     "author": "Emily Henry",
     "month": "May 2020",
     "year": 2020,
-    "genres": ["Romance", "Contemporary Fiction"],
-    "themes": ["writers", "creative blocks", "grief", "small town", "opposites attract"],
+    "genres": [
+      "Romance",
+      "Contemporary Fiction"
+    ],
+    "themes": [
+      "writers",
+      "creative blocks",
+      "grief",
+      "small town",
+      "opposites attract"
+    ],
     "description": "A romance writer who's lost her faith in love and a literary fiction writer who's lost his faith in life agree to swap genres for the summer — and end up swapping much more.",
     "reeseNote": "Beach Read made me believe in the romantic comedy all over again. Funny and heartfelt and absolutely wonderful.",
     "coverColor": "#F4A460",
@@ -286,7 +469,8 @@
       "hardcover": "https://bookshop.org/a/106/9781984806734",
       "ebook": "https://bookshop.org/a/106/9781984806734",
       "audio": "https://bookshop.org/a/106/9781984806734"
-    }
+    },
+    "coverUrl": "https://covers.openlibrary.org/b/id/9426296-L.jpg"
   },
   {
     "id": "where-the-crawdads-sing",
@@ -294,8 +478,19 @@
     "author": "Delia Owens",
     "month": "September 2018",
     "year": 2018,
-    "genres": ["Literary Fiction", "Mystery", "Coming-of-Age"],
-    "themes": ["wild nature", "survival", "isolation", "love", "murder mystery", "marshes"],
+    "genres": [
+      "Literary Fiction",
+      "Mystery",
+      "Coming-of-Age"
+    ],
+    "themes": [
+      "wild nature",
+      "survival",
+      "isolation",
+      "love",
+      "murder mystery",
+      "marshes"
+    ],
     "description": "A girl abandoned in the marshes of North Carolina teaches herself to survive and thrive — until she's suspected of murder. A literary sensation loved by millions.",
     "reeseNote": "This is one of those rare books that you can feel in your bones. Delia Owens writes nature and loneliness and love with equal brilliance.",
     "coverColor": "#4E7D52",
@@ -303,7 +498,8 @@
       "hardcover": "https://bookshop.org/a/106/9780735224292",
       "ebook": "https://bookshop.org/a/106/9780735224292",
       "audio": "https://bookshop.org/a/106/9780735224292"
-    }
+    },
+    "coverUrl": "https://covers.openlibrary.org/b/id/8362947-L.jpg"
   },
   {
     "id": "daisy-jones-and-the-six",
@@ -311,8 +507,19 @@
     "author": "Taylor Jenkins Reid",
     "month": "March 2019",
     "year": 2019,
-    "genres": ["Historical Fiction", "Literary Fiction", "Music"],
-    "themes": ["rock and roll", "1970s", "ambition", "fame", "music", "creative partnership"],
+    "genres": [
+      "Historical Fiction",
+      "Literary Fiction",
+      "Music"
+    ],
+    "themes": [
+      "rock and roll",
+      "1970s",
+      "ambition",
+      "fame",
+      "music",
+      "creative partnership"
+    ],
     "description": "The rise and fall of a legendary 1970s rock band, told through oral history interviews — a dazzling account of music, ambition, and the complicated chemistry between two artists.",
     "reeseNote": "Daisy Jones & The Six is one of the most original books I've read in years. Taylor Jenkins Reid is a genius. I was completely obsessed.",
     "coverColor": "#8B4C8B",
@@ -320,7 +527,8 @@
       "hardcover": "https://bookshop.org/a/106/9781524798642",
       "ebook": "https://bookshop.org/a/106/9781524798642",
       "audio": "https://bookshop.org/a/106/9781524798642"
-    }
+    },
+    "coverUrl": "https://covers.openlibrary.org/b/id/8742674-L.jpg"
   },
   {
     "id": "big-little-lies",
@@ -328,8 +536,19 @@
     "author": "Liane Moriarty",
     "month": "January 2017",
     "year": 2017,
-    "genres": ["Mystery", "Literary Fiction", "Drama"],
-    "themes": ["female friendship", "secrets", "suburban life", "domestic abuse", "community", "mothers"],
+    "genres": [
+      "Mystery",
+      "Literary Fiction",
+      "Drama"
+    ],
+    "themes": [
+      "female friendship",
+      "secrets",
+      "suburban life",
+      "domestic abuse",
+      "community",
+      "mothers"
+    ],
     "description": "Three women with secrets they've kept for years are connected by a shocking incident at a school trivia night. The one that started it all for Reese's Book Club.",
     "reeseNote": "This book is why I started Reese's Book Club. Liane Moriarty completely changed what I thought a novel could do — women's stories told with such intelligence and dark wit.",
     "coverColor": "#1A3A5C",
@@ -337,6 +556,7 @@
       "hardcover": "https://bookshop.org/a/106/9780425274866",
       "ebook": "https://bookshop.org/a/106/9780425274866",
       "audio": "https://bookshop.org/a/106/9780425274866"
-    }
+    },
+    "coverUrl": "https://covers.openlibrary.org/b/id/7352410-L.jpg"
   }
 ]

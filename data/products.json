@@ -1,327 +1,794 @@
 [
   {
-    "id": "cozy-earth-bamboo-throw",
-    "name": "Bamboo Viscose Throw Blanket",
-    "brand": "Cozy Earth",
-    "category": "cozy home",
-    "price": 145,
-    "priceDisplay": "$145",
-    "editorialNote": "Reese's most-reached-for reading companion. Temperature-regulating, impossibly soft, and the kind of thing you'll wrap yourself in every single night.",
-    "whyReeseLovesIt": "Literally can't read without this. It's the softest thing I own.",
-    "tags": ["reading nook", "gift", "home", "cozy", "luxury"],
-    "affiliateUrl": "https://cozyearth.com/products/bamboo-viscose-throw-blanket",
-    "imageColor": "#C8B89A"
-  },
-  {
-    "id": "voluspa-mokara-candle",
-    "name": "Mokara Large Jar Candle",
-    "brand": "Voluspa",
-    "category": "cozy home",
-    "price": 38,
-    "priceDisplay": "$38",
-    "editorialNote": "Clean, white floral — the scent that feels like a freshly pressed linen book page. Reese burns this every reading session.",
-    "whyReeseLovesIt": "This is my reading candle. The scent is just pure calm.",
-    "tags": ["reading nook", "home", "gift", "scent", "under $50"],
-    "affiliateUrl": "https://voluspa.com/products/mokara-large-jar-candle",
-    "imageColor": "#FEFCF8"
-  },
-  {
-    "id": "fellow-stagg-kettle",
-    "name": "Stagg EKG Electric Pour-Over Kettle",
-    "brand": "Fellow",
-    "category": "cozy home",
-    "price": 165,
-    "priceDisplay": "$165",
-    "editorialNote": "For the reader who takes their morning tea or coffee as seriously as their morning chapters. Precision temperature, beautiful design — the kind of thing you'll use every single day.",
-    "whyReeseLovesIt": "My morning ritual starts here, then moves to whatever I'm reading.",
-    "tags": ["reading ritual", "morning", "coffee", "tea", "gift for her"],
-    "affiliateUrl": "https://fellowproducts.com/products/stagg-ekg-electric-kettle",
-    "imageColor": "#2C2C2C"
-  },
-  {
-    "id": "yankee-soft-blanket-candle",
-    "name": "Soft Blanket Large Jar Candle",
-    "brand": "Yankee Candle",
-    "category": "cozy home",
-    "price": 30,
-    "priceDisplay": "$30",
-    "editorialNote": "Cotton-soft and cozy — the reading scent. Reese's go-to when she wants her living room to feel like a hug.",
-    "whyReeseLovesIt": "This smells like everything cozy wrapped in one candle.",
-    "tags": ["cozy", "reading nook", "under $50", "gift", "affordable"],
-    "affiliateUrl": "https://www.yankeecandle.com/yankee-candle/en_US/product/soft-blanket-large-jar-candle/22061959.html",
-    "imageColor": "#F5E8D0"
-  },
-  {
-    "id": "anthropologie-mug",
-    "name": "Monique Lhuillier Floral Mug",
-    "brand": "Anthropologie",
-    "category": "cozy home",
-    "price": 18,
-    "priceDisplay": "$18",
-    "editorialNote": "Reading is better with something warm in your hands and something beautiful in your sight line. This mug checks both boxes and then some.",
-    "whyReeseLovesIt": "Life is too short for boring mugs. That's my whole philosophy.",
-    "tags": ["reading ritual", "gift", "under $25", "kitchen", "pretty"],
-    "affiliateUrl": "https://www.anthropologie.com/shop/mugs",
-    "imageColor": "#E8D0C8"
-  },
-  {
-    "id": "necessaire-body-serum",
-    "name": "The Body Serum",
-    "brand": "Nécessaire",
-    "category": "beauty",
-    "price": 45,
-    "priceDisplay": "$45",
-    "editorialNote": "Reese's post-bath ritual before settling in with a good book. Niacinamide and peptides in the cleanest possible formulation.",
-    "whyReeseLovesIt": "I put this on after a bath before I settle in to read. Perfect ritual.",
-    "tags": ["beauty", "wellness", "self care", "under $50", "skin"],
-    "affiliateUrl": "https://necessaire.com/products/the-body-serum",
-    "imageColor": "#F0ECE8"
-  },
-  {
-    "id": "laneige-lip-mask",
-    "name": "Lip Sleeping Mask",
-    "brand": "Laneige",
-    "category": "beauty",
-    "price": 24,
-    "priceDisplay": "$24",
-    "editorialNote": "The overnight essential that Reese swears by — slather it on before the last chapter and wake up with the softest lips of your life.",
-    "whyReeseLovesIt": "I put this on every night before reading. Non-negotiable.",
-    "tags": ["beauty", "under $25", "bedtime", "gift", "skincare"],
-    "affiliateUrl": "https://www.laneige.com/us/en/skincare/lip-sleeping-mask.html",
-    "imageColor": "#FFD6E0"
-  },
-  {
-    "id": "dr-dennis-gross-peel",
-    "name": "Alpha Beta Extra Strength Daily Peel",
-    "brand": "Dr. Dennis Gross",
-    "category": "beauty",
-    "price": 92,
-    "priceDisplay": "$92",
-    "editorialNote": "Two steps, two minutes — the peel Reese calls her skin's best friend. Used while winding down before a reading session.",
-    "whyReeseLovesIt": "My skin changed. That's all I'll say. My skin changed.",
-    "tags": ["beauty", "skincare", "luxury", "gift for her", "anti-aging"],
-    "affiliateUrl": "https://www.drdennisgross.com/products/alpha-beta-extra-strength-daily-peel",
-    "imageColor": "#E8F0E8"
-  },
-  {
-    "id": "true-botanicals-vitamin-c",
-    "name": "Pure Radiance Oil",
-    "brand": "True Botanicals",
-    "category": "beauty",
-    "price": 110,
-    "priceDisplay": "$110",
-    "editorialNote": "Clean, certified, and genuinely effective — the face oil Reese reaches for every evening. Because the right book and the right skincare are both acts of self-respect.",
-    "whyReeseLovesIt": "Clean beauty that actually works. I've used this for years.",
-    "tags": ["beauty", "clean beauty", "luxury", "skincare", "self care"],
-    "affiliateUrl": "https://truebotanicals.com/products/pure-radiance-oil",
-    "imageColor": "#F5E0A0"
-  },
-  {
-    "id": "ritual-vitamins",
-    "name": "Essential for Women 35+ Multivitamin",
-    "brand": "Ritual",
-    "category": "beauty",
-    "price": 35,
-    "priceDisplay": "$35/mo",
-    "editorialNote": "Traceable ingredients, no unnecessary fillers — the multivitamin Reese takes as part of her morning ritual before the first coffee and the first chapter.",
-    "whyReeseLovesIt": "I love knowing exactly what's in what I take. Ritual makes that easy.",
-    "tags": ["wellness", "health", "under $50", "daily ritual", "subscription"],
-    "affiliateUrl": "https://ritual.com/products/essential-for-women-multivitamin-35",
-    "imageColor": "#F7E4D0"
-  },
-  {
-    "id": "rifle-paper-journal",
-    "name": "Garden Party Softcover Journal",
-    "brand": "Rifle Paper Co.",
-    "category": "stationery",
-    "price": 18,
-    "priceDisplay": "$18",
-    "editorialNote": "For capturing your thoughts between chapters, your favorite lines, and the moments when a book changes how you see the world. Beautiful enough to keep on your nightstand.",
-    "whyReeseLovesIt": "I write in a journal every night. It's how I process what I read.",
-    "tags": ["stationery", "reading journal", "gift", "under $25", "pretty"],
-    "affiliateUrl": "https://riflepaperco.com/garden-party-journal/",
-    "imageColor": "#E8D8C8"
-  },
-  {
-    "id": "paper-source-bookmark-set",
-    "name": "Pressed Wildflower Bookmark Set",
-    "brand": "Paper Source",
-    "category": "stationery",
-    "price": 14,
-    "priceDisplay": "$14",
-    "editorialNote": "Handcrafted resin bookmarks with pressed dried flowers. The kind of thing you'll use for every book and keep for years after.",
-    "whyReeseLovesIt": "A beautiful book deserves a beautiful bookmark. Simple as that.",
-    "tags": ["stationery", "gift", "under $25", "reading", "pretty"],
-    "affiliateUrl": "https://www.papersource.com/category/gifts/bookmarks.html",
-    "imageColor": "#F0E8D0"
-  },
-  {
-    "id": "appointed-daily-planner",
-    "name": "Daily Planner",
-    "brand": "Appointed",
-    "category": "stationery",
-    "price": 48,
-    "priceDisplay": "$48",
-    "editorialNote": "For the woman who schedules her reading time the way she schedules everything else that matters. Cloth-bound, undated, built to last.",
-    "whyReeseLovesIt": "I protect my reading time like a meeting. This is where I put it.",
-    "tags": ["stationery", "organization", "under $50", "gift", "productivity"],
-    "affiliateUrl": "https://www.appointedco.com/products/daily-planner",
-    "imageColor": "#C8D8E0"
-  },
-  {
-    "id": "ban-do-reading-glasses",
-    "name": "Blue Light Glasses",
-    "brand": "ban.do",
-    "category": "stationery",
-    "price": 26,
-    "priceDisplay": "$26",
-    "editorialNote": "For the late-night reading sessions that go longer than intended. Protect your eyes in style — because reading until 2am is a lifestyle, not a problem.",
-    "whyReeseLovesIt": "I started wearing these for late reading and my eyes are so much happier.",
-    "tags": ["reading", "wellness", "under $50", "gift", "tech"],
-    "affiliateUrl": "https://www.bandoshop.com/collections/accessories/glasses",
-    "imageColor": "#D0C8F0"
-  },
-  {
-    "id": "ghirardelli-dark-chocolate",
-    "name": "Intense Dark Chocolate Collection",
-    "brand": "Ghirardelli",
-    "category": "snacks",
-    "price": 12,
-    "priceDisplay": "$12",
-    "editorialNote": "A little treat to reward every 50 pages. Dark chocolate and literary fiction are, scientifically, one of the great pairings. Reese stocks these in every room she reads in.",
-    "whyReeseLovesIt": "I reward myself with one square per chapter. It makes the reading even better.",
-    "tags": ["snacks", "gift", "under $25", "reading snack", "chocolate"],
-    "affiliateUrl": "https://www.ghirardelli.com/intense-dark-collection",
-    "imageColor": "#5C3317"
-  },
-  {
-    "id": "firepot-chai-tea",
-    "name": "Nomadic Chai Loose Leaf Tea",
-    "brand": "Firepot",
-    "category": "snacks",
-    "price": 22,
-    "priceDisplay": "$22",
-    "editorialNote": "The chai that tastes like it was made specifically for an evening with a great book. Warming, complex, and impossible to rush — just like the best novels.",
-    "whyReeseLovesIt": "My reading tea. I make a pot and settle in. Perfect every time.",
-    "tags": ["snacks", "tea", "gift", "under $25", "cozy"],
-    "affiliateUrl": "https://firepottea.com/products/nomadic-chai",
-    "imageColor": "#B8845A"
-  },
-  {
-    "id": "graza-olive-oil",
-    "name": "Drizzle Extra Virgin Olive Oil",
-    "brand": "Graza",
-    "category": "snacks",
-    "price": 22,
-    "priceDisplay": "$22",
-    "editorialNote": "For the reader who takes their snack situation as seriously as their book selection. Squeeze bottle design, single-origin, outrageously good on everything.",
-    "whyReeseLovesIt": "I put this on everything. My book club snack spread is not complete without it.",
-    "tags": ["snacks", "cooking", "gift", "under $25", "kitchen"],
-    "affiliateUrl": "https://graza.co/products/drizzle",
-    "imageColor": "#C8D870"
-  },
-  {
-    "id": "stumptown-cold-brew",
-    "name": "Cold Brew Coffee Concentrate",
-    "brand": "Stumptown",
-    "category": "snacks",
-    "price": 16,
-    "priceDisplay": "$16",
-    "editorialNote": "Morning reading fuel — smooth, strong, no bitterness. The cold brew Reese pours over ice before settling in for a long chapter.",
-    "whyReeseLovesIt": "Morning reading needs good coffee. This is my go-to.",
-    "tags": ["snacks", "coffee", "morning", "under $25", "reading ritual"],
-    "affiliateUrl": "https://www.stumptowncoffee.com/products/cold-brew-coffee-concentrate",
-    "imageColor": "#3D2010"
-  },
-  {
-    "id": "cozy-earth-lounge-set",
-    "name": "Bamboo Lounge Set",
-    "brand": "Cozy Earth",
+    "id": "shopmy-1",
+    "name": "Cyme Bag",
+    "brand": "",
     "category": "fashion",
-    "price": 168,
-    "priceDisplay": "$168",
-    "editorialNote": "Reese's reading uniform: the loungewear so comfortable she's been photographed in it approximately one hundred times. Bamboo viscose, temperature-regulating, impossibly soft.",
-    "whyReeseLovesIt": "This is what I wear every single weekend. Reading, family time, everything.",
-    "tags": ["fashion", "loungewear", "gift for her", "cozy", "luxury"],
-    "affiliateUrl": "https://cozyearth.com/collections/womens-loungewear",
+    "price": 620,
+    "priceDisplay": "$620",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "Once you try this, you'll wonder how you lived without it.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1764422802079",
+    "affiliateUrl": "https://shopmy.us/shop/product/121161?Curator_id=366029",
     "imageColor": "#E8DDD0"
   },
   {
-    "id": "beis-weekender-bag",
-    "name": "The Weekender Bag",
-    "brand": "Beis",
+    "id": "shopmy-2",
+    "name": "Boiled Wool Chore Coat",
+    "brand": "",
     "category": "fashion",
-    "price": 118,
-    "priceDisplay": "$118",
-    "editorialNote": "The travel bag with a dedicated book pocket — because Reese never goes anywhere without at least two books. Structured, chic, and built for the reader who moves.",
-    "whyReeseLovesIt": "There is literally a book pocket. That's all I need to say.",
-    "tags": ["fashion", "travel", "gift for her", "functional", "chic"],
-    "affiliateUrl": "https://www.beisworld.com/products/the-weekender",
-    "imageColor": "#C8A882"
+    "price": 399,
+    "priceDisplay": "$399",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "I keep coming back to this one. It never disappoints.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1763711975818",
+    "affiliateUrl": "https://shopmy.us/shop/product/1315977?Curator_id=366029",
+    "imageColor": "#F0ECE8"
   },
   {
-    "id": "kendra-scott-initial-necklace",
-    "name": "Elisa Initial Pendant Necklace",
-    "brand": "Kendra Scott",
+    "id": "shopmy-3",
+    "name": "Active Backpack",
+    "brand": "",
     "category": "fashion",
-    "price": 60,
-    "priceDisplay": "$60",
-    "editorialNote": "Reese's everyday jewelry. Delicate enough to layer, personal enough to feel like yours. The ideal gift for a reader who has everything except this.",
-    "whyReeseLovesIt": "I wear a version of this almost every day. It's simple and perfect.",
-    "tags": ["fashion", "jewelry", "gift for her", "under $75", "everyday"],
-    "affiliateUrl": "https://www.kendrascott.com/jewelry/necklaces/elisa-initial-pendant-necklace",
+    "price": 149.99,
+    "priceDisplay": "$149.99",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "My team is obsessed with this too. It's just that good.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1765557800157",
+    "affiliateUrl": "https://shopmy.us/shop/product/1534440?Curator_id=366029",
+    "imageColor": "#C8B89A"
+  },
+  {
+    "id": "shopmy-4",
+    "name": "The Bigger Carry-On Suitcase",
+    "brand": "",
+    "category": "fashion",
+    "price": 345,
+    "priceDisplay": "$345",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "I keep coming back to this one. It never disappoints.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1755277641563",
+    "affiliateUrl": "https://shopmy.us/shop/product/100027?Curator_id=366029",
+    "imageColor": "#E8D8C8"
+  },
+  {
+    "id": "shopmy-5",
+    "name": "Dice Lo Sneakers",
+    "brand": "",
+    "category": "fashion",
+    "price": 325,
+    "priceDisplay": "$325",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "I keep coming back to this one. It never disappoints.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1770907128264",
+    "affiliateUrl": "https://shopmy.us/shop/product/386236?Curator_id=366029",
     "imageColor": "#D4AF37"
   },
   {
-    "id": "draper-james-reading-socks",
-    "name": "Ruffle Crew Socks",
-    "brand": "Draper James",
+    "id": "shopmy-6",
+    "name": "The Insider Packing Cubes",
+    "brand": "",
     "category": "fashion",
-    "price": 24,
-    "priceDisplay": "$24",
-    "editorialNote": "From Reese's own brand — the socks made for settling in with a great book. Cheerful, cozy, and the perfect small gift for any reader.",
-    "whyReeseLovesIt": "Cozy socks are essential. These are my favorite pair I've made.",
-    "tags": ["fashion", "gift", "under $25", "cozy", "reading"],
-    "affiliateUrl": "https://draperjames.com/collections/socks",
-    "imageColor": "#F5E03A"
+    "price": 48,
+    "priceDisplay": "$48",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "This is the real deal. I use it constantly.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1761909538310",
+    "affiliateUrl": "https://shopmy.us/shop/product/148592?Curator_id=366029",
+    "imageColor": "#C8A882"
   },
   {
-    "id": "free-people-reading-cardigan",
-    "name": "Fuzzy Cocoon Cardigan",
-    "brand": "Free People",
+    "id": "shopmy-7",
+    "name": "Adhesive Wireless Charging Car Mount Qi2",
+    "brand": "",
     "category": "fashion",
-    "price": 128,
-    "priceDisplay": "$128",
-    "editorialNote": "The reading cardigan. Oversized, enveloping, the kind you throw on over pajamas and never want to take off. Reese considers this a reading essential, not a luxury.",
-    "whyReeseLovesIt": "The reading cardigan. Everyone needs one. This is mine.",
-    "tags": ["fashion", "cozy", "gift for her", "loungewear", "reading"],
-    "affiliateUrl": "https://www.freepeople.com/shop/fuzzy-cocoon-cardigan",
+    "price": 69.99,
+    "priceDisplay": "$69.99",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "I keep coming back to this one. It never disappoints.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/img-product-1765986899620",
+    "affiliateUrl": "https://shopmy.us/shop/product/1537046?Curator_id=366029",
+    "imageColor": "#F5E0A0"
+  },
+  {
+    "id": "shopmy-8",
+    "name": "Lightweight Textured Cashmere Crew Sweater",
+    "brand": "",
+    "category": "fashion",
+    "price": 495,
+    "priceDisplay": "$495",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "I found this and couldn't stop recommending it. Absolute favorite.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1766507634665",
+    "affiliateUrl": "https://shopmy.us/shop/product/861287?Curator_id=366029",
+    "imageColor": "#FFD6E0"
+  },
+  {
+    "id": "shopmy-9",
+    "name": "Mini Bundle",
+    "brand": "",
+    "category": "fashion",
+    "price": 229,
+    "priceDisplay": "$229",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "Genuinely one of my favorite finds. So good.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/img-product-1761272721300",
+    "affiliateUrl": "https://shopmy.us/shop/product/1035555?Curator_id=366029",
     "imageColor": "#E8C8A0"
   },
   {
-    "id": "parachute-linen-pillowcase",
-    "name": "Linen Pillowcase Set",
-    "brand": "Parachute",
-    "category": "cozy home",
-    "price": 39,
-    "priceDisplay": "$39",
-    "editorialNote": "For the reader who inevitably falls asleep mid-chapter and wants the softest possible landing. Stone-washed linen, gets better with every wash.",
-    "whyReeseLovesIt": "The best sleep is after a really good book. These make that sleep perfect.",
-    "tags": ["home", "gift", "under $50", "bed", "cozy"],
-    "affiliateUrl": "https://www.parachutehome.com/products/linen-pillowcase-set",
-    "imageColor": "#E0D8D0"
+    "id": "shopmy-10",
+    "name": "Luka Duffel Bag",
+    "brand": "",
+    "category": "fashion",
+    "price": 178,
+    "priceDisplay": "$178",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "My team is obsessed with this too. It's just that good.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1775425030456",
+    "affiliateUrl": "https://shopmy.us/shop/product/93219?Curator_id=366029",
+    "imageColor": "#C8D8E0"
   },
   {
-    "id": "umbra-magazine-rack",
-    "name": "Trigg Wall-Mounted Display",
-    "brand": "Umbra",
-    "category": "cozy home",
-    "price": 32,
-    "priceDisplay": "$32",
-    "editorialNote": "The sleek wall shelf that lets you display your current reads, back covers out — because books are beautiful objects and deserve to be shown off.",
-    "whyReeseLovesIt": "I display my current reads on the wall. It's art AND function.",
-    "tags": ["home", "reading nook", "under $50", "organization", "decor"],
-    "affiliateUrl": "https://www.umbra.com/products/trigg-wall-display-shelf",
-    "imageColor": "#C8C8C8"
+    "id": "shopmy-11",
+    "name": "Todd Snyder x Woolrich Casentino Wool Shirt",
+    "brand": "",
+    "category": "fashion",
+    "price": 424,
+    "priceDisplay": "$424",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "This is the real deal. I use it constantly.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1763572991389",
+    "affiliateUrl": "https://shopmy.us/shop/product/1299867?Curator_id=366029",
+    "imageColor": "#E8DDD0"
+  },
+  {
+    "id": "shopmy-12",
+    "name": "Big Cozy Pullover Hoodie",
+    "brand": "",
+    "category": "fashion",
+    "price": 109,
+    "priceDisplay": "$109",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "I found this and couldn't stop recommending it. Absolute favorite.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/b7f2e137-b029-44bd-bdb8-a0534e5be468imgi_1_LM3FZSS_0001_1.png",
+    "affiliateUrl": "https://shopmy.us/shop/product/821718?Curator_id=366029",
+    "imageColor": "#F0ECE8"
+  },
+  {
+    "id": "shopmy-13",
+    "name": "Tobacco Chamois",
+    "brand": "",
+    "category": "fashion",
+    "price": 766,
+    "priceDisplay": "$766",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "My team is obsessed with this too. It's just that good.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1762342831226",
+    "affiliateUrl": "https://shopmy.us/shop/product/1160802?Curator_id=366029",
+    "imageColor": "#C8B89A"
+  },
+  {
+    "id": "shopmy-14",
+    "name": "Big Cozy Jogger",
+    "brand": "",
+    "category": "fashion",
+    "price": 148,
+    "priceDisplay": "$148",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "My team is obsessed with this too. It's just that good.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/6310c0d7-4ab8-4c6a-af73-8481bb6190f9_LM5BIES_071148_1.webp",
+    "affiliateUrl": "https://shopmy.us/shop/product/1052038?Curator_id=366029",
+    "imageColor": "#E8D8C8"
+  },
+  {
+    "id": "shopmy-15",
+    "name": "Collapsible Water Bottle",
+    "brand": "",
+    "category": "fashion",
+    "price": 29.95,
+    "priceDisplay": "$29.95",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "I found this and couldn't stop recommending it. Absolute favorite.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1755206472313",
+    "affiliateUrl": "https://shopmy.us/shop/product/431086?Curator_id=366029",
+    "imageColor": "#D4AF37"
+  },
+  {
+    "id": "shopmy-16",
+    "name": "Sleep Buds",
+    "brand": "",
+    "category": "fashion",
+    "price": 349,
+    "priceDisplay": "$349",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "I keep coming back to this one. It never disappoints.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1767118476661",
+    "affiliateUrl": "https://shopmy.us/shop/product/620325?Curator_id=366029",
+    "imageColor": "#C8A882"
+  },
+  {
+    "id": "shopmy-17",
+    "name": "Emerald Cut Bezel Latchback Earrings",
+    "brand": "",
+    "category": "fashion",
+    "price": 395,
+    "priceDisplay": "$395",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "I found this and couldn't stop recommending it. Absolute favorite.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/26f25d62-212a-4ca1-bcf0-660094172423_image-1761292418458",
+    "affiliateUrl": "https://shopmy.us/shop/product/1037678?Curator_id=366029",
+    "imageColor": "#F5E0A0"
+  },
+  {
+    "id": "shopmy-18",
+    "name": "Case Defender Series Pro Phone Case",
+    "brand": "",
+    "category": "fashion",
+    "price": 79.99,
+    "priceDisplay": "$79.99",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "Genuinely one of my favorite finds. So good.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1771695590324",
+    "affiliateUrl": "https://shopmy.us/shop/product/1531412?Curator_id=366029",
+    "imageColor": "#FFD6E0"
+  },
+  {
+    "id": "shopmy-19",
+    "name": "Mini Heart Case Clutch",
+    "brand": "",
+    "category": "fashion",
+    "price": 98,
+    "priceDisplay": "$98",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "I keep coming back to this one. It never disappoints.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1770745225996",
+    "affiliateUrl": "https://shopmy.us/shop/product/273659?Curator_id=366029",
+    "imageColor": "#E8C8A0"
+  },
+  {
+    "id": "shopmy-20",
+    "name": "Greatest Chocolates of the World Exploratory Set",
+    "brand": "",
+    "category": "snacks",
+    "price": 25,
+    "priceDisplay": "$25",
+    "editorialNote": "Reese's reading snack pick. The perfect thing to have within arm's reach when you're deep in a great book.",
+    "whyReeseLovesIt": "I found this and couldn't stop recommending it. Absolute favorite.",
+    "tags": [
+      "snacks",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1765436538611",
+    "affiliateUrl": "https://shopmy.us/shop/product/1172885?Curator_id=366029",
+    "imageColor": "#C8D8E0"
+  },
+  {
+    "id": "shopmy-21",
+    "name": "Leather Travel Case Set",
+    "brand": "",
+    "category": "fashion",
+    "price": 178,
+    "priceDisplay": "$178",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "Genuinely one of my favorite finds. So good.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1772423415248",
+    "affiliateUrl": "https://shopmy.us/shop/product/108726?Curator_id=366029",
+    "imageColor": "#E8DDD0"
+  },
+  {
+    "id": "shopmy-22",
+    "name": "Personal Space Cosmic Notebook",
+    "brand": "",
+    "category": "stationery",
+    "price": 82,
+    "priceDisplay": "$82",
+    "editorialNote": "For capturing the thoughts that come to you between chapters. Beautiful enough to keep out on your desk.",
+    "whyReeseLovesIt": "I found this and couldn't stop recommending it. Absolute favorite.",
+    "tags": [
+      "stationery",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1765618652360",
+    "affiliateUrl": "https://shopmy.us/shop/product/1540687?Curator_id=366029",
+    "imageColor": "#F0ECE8"
+  },
+  {
+    "id": "shopmy-23",
+    "name": "Romy Suede Tote Bag",
+    "brand": "",
+    "category": "fashion",
+    "price": 595,
+    "priceDisplay": "$595",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "This is the real deal. I use it constantly.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1768218338044",
+    "affiliateUrl": "https://shopmy.us/shop/product/331496?Curator_id=366029",
+    "imageColor": "#C8B89A"
+  },
+  {
+    "id": "shopmy-24",
+    "name": "Cashmere Beanie",
+    "brand": "",
+    "category": "fashion",
+    "price": 95,
+    "priceDisplay": "$95",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "My team is obsessed with this too. It's just that good.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1763143001866",
+    "affiliateUrl": "https://shopmy.us/shop/product/119368?Curator_id=366029",
+    "imageColor": "#E8D8C8"
+  },
+  {
+    "id": "shopmy-25",
+    "name": "Wild Dark Shore",
+    "brand": "",
+    "category": "fashion",
+    "price": 20.29,
+    "priceDisplay": "$20.29",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "My team is obsessed with this too. It's just that good.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/607c6dd1-2edd-4ecb-97bb-9bc22f85c3149781250827999_1800x2735.png",
+    "affiliateUrl": "https://shopmy.us/shop/product/792436?Curator_id=366029",
+    "imageColor": "#D4AF37"
+  },
+  {
+    "id": "shopmy-26",
+    "name": "Pemf Go Mat Starter Kit",
+    "brand": "",
+    "category": "fashion",
+    "price": 740,
+    "priceDisplay": "$740",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "Genuinely one of my favorite finds. So good.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1754499891640",
+    "affiliateUrl": "https://shopmy.us/shop/product/370046?Curator_id=366029",
+    "imageColor": "#C8A882"
+  },
+  {
+    "id": "shopmy-27",
+    "name": "Body Full Collection Bundle",
+    "brand": "",
+    "category": "fashion",
+    "price": 154.8,
+    "priceDisplay": "$154.80",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "My team is obsessed with this too. It's just that good.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1757020278998",
+    "affiliateUrl": "https://shopmy.us/shop/product/607994?Curator_id=366029",
+    "imageColor": "#F5E0A0"
+  },
+  {
+    "id": "shopmy-28",
+    "name": "Gone Before Goodbye",
+    "brand": "",
+    "category": "fashion",
+    "price": 21.68,
+    "priceDisplay": "$21.68",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "This is the real deal. I use it constantly.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1760857488614",
+    "affiliateUrl": "https://shopmy.us/shop/product/989095?Curator_id=366029",
+    "imageColor": "#FFD6E0"
+  },
+  {
+    "id": "shopmy-29",
+    "name": "Extra Wide Leg Sweatpant",
+    "brand": "",
+    "category": "fashion",
+    "price": 138,
+    "priceDisplay": "$138",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "I found this and couldn't stop recommending it. Absolute favorite.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1768674603716",
+    "affiliateUrl": "https://shopmy.us/shop/product/1773471?Curator_id=366029",
+    "imageColor": "#E8C8A0"
+  },
+  {
+    "id": "shopmy-30",
+    "name": "Bamboo Handle Top",
+    "brand": "",
+    "category": "fashion",
+    "price": 265,
+    "priceDisplay": "$265",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "Genuinely one of my favorite finds. So good.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1755153749489",
+    "affiliateUrl": "https://shopmy.us/shop/product/114391?Curator_id=366029",
+    "imageColor": "#C8D8E0"
+  },
+  {
+    "id": "shopmy-31",
+    "name": "Cate Tote Bag",
+    "brand": "",
+    "category": "fashion",
+    "price": 4800,
+    "priceDisplay": "$4,800",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "This is the real deal. I use it constantly.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/img-product-1772554016667",
+    "affiliateUrl": "https://shopmy.us/shop/product/208696?Curator_id=366029",
+    "imageColor": "#E8DDD0"
+  },
+  {
+    "id": "shopmy-32",
+    "name": "Slip Tint Tinted Moisturizer 40 Ml",
+    "brand": "",
+    "category": "beauty",
+    "price": 38,
+    "priceDisplay": "$38",
+    "editorialNote": "Reese's go-to for her self-care ritual. Clean, effective, and the kind of thing you'll reach for every single day.",
+    "whyReeseLovesIt": "I keep coming back to this one. It never disappoints.",
+    "tags": [
+      "beauty",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1763133823537",
+    "affiliateUrl": "https://shopmy.us/shop/product/956?Curator_id=366029",
+    "imageColor": "#F0ECE8"
+  },
+  {
+    "id": "shopmy-33",
+    "name": "Philippe Crop Sweatshirt",
+    "brand": "",
+    "category": "fashion",
+    "price": 168,
+    "priceDisplay": "$168",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "I found this and couldn't stop recommending it. Absolute favorite.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1762810127226",
+    "affiliateUrl": "https://shopmy.us/shop/product/1213883?Curator_id=366029",
+    "imageColor": "#C8B89A"
+  },
+  {
+    "id": "shopmy-34",
+    "name": "The Radiance Starter Kit",
+    "brand": "",
+    "category": "fashion",
+    "price": 372,
+    "priceDisplay": "$372",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "I found this and couldn't stop recommending it. Absolute favorite.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1768034840680",
+    "affiliateUrl": "https://shopmy.us/shop/product/1470874?Curator_id=366029",
+    "imageColor": "#E8D8C8"
+  },
+  {
+    "id": "shopmy-35",
+    "name": "Puffy Heart Choker",
+    "brand": "",
+    "category": "fashion",
+    "price": 120,
+    "priceDisplay": "$120",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "I found this and couldn't stop recommending it. Absolute favorite.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/70768324-eb17-4a31-a02e-6746b3f00623_imgi_1_w2000_q60.jpeg",
+    "affiliateUrl": "https://shopmy.us/shop/product/1852700?Curator_id=366029",
+    "imageColor": "#D4AF37"
+  },
+  {
+    "id": "shopmy-36",
+    "name": "Lexi Distressed Ankle Jeans",
+    "brand": "",
+    "category": "fashion",
+    "price": 188,
+    "priceDisplay": "$188",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "My team is obsessed with this too. It's just that good.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1753799885388",
+    "affiliateUrl": "https://shopmy.us/shop/product/195531?Curator_id=366029",
+    "imageColor": "#C8A882"
+  },
+  {
+    "id": "shopmy-37",
+    "name": "Blake Fitted Blazer",
+    "brand": "",
+    "category": "fashion",
+    "price": 495,
+    "priceDisplay": "$495",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "This is the real deal. I use it constantly.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1769095120421",
+    "affiliateUrl": "https://shopmy.us/shop/product/839217?Curator_id=366029",
+    "imageColor": "#F5E0A0"
+  },
+  {
+    "id": "shopmy-38",
+    "name": "Lauren Crop Cardigan",
+    "brand": "",
+    "category": "fashion",
+    "price": 160,
+    "priceDisplay": "$160",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "Once you try this, you'll wonder how you lived without it.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/img-1775569131642-original-image-1775569110206",
+    "affiliateUrl": "https://shopmy.us/shop/product/284749?Curator_id=366029",
+    "imageColor": "#FFD6E0"
+  },
+  {
+    "id": "shopmy-39",
+    "name": "Advanced Skin Serum",
+    "brand": "",
+    "category": "beauty",
+    "price": 180,
+    "priceDisplay": "$180",
+    "editorialNote": "Reese's go-to for her self-care ritual. Clean, effective, and the kind of thing you'll reach for every single day.",
+    "whyReeseLovesIt": "This is the real deal. I use it constantly.",
+    "tags": [
+      "beauty",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1764850528547",
+    "affiliateUrl": "https://shopmy.us/shop/product/1453765?Curator_id=366029",
+    "imageColor": "#E8C8A0"
+  },
+  {
+    "id": "shopmy-40",
+    "name": "Mikaela Mini Dress",
+    "brand": "",
+    "category": "fashion",
+    "price": 350,
+    "priceDisplay": "$350",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "I found this and couldn't stop recommending it. Absolute favorite.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1769095075380",
+    "affiliateUrl": "https://shopmy.us/shop/product/1807752?Curator_id=366029",
+    "imageColor": "#C8D8E0"
+  },
+  {
+    "id": "shopmy-41",
+    "name": "Glowy Super Gel",
+    "brand": "",
+    "category": "fashion",
+    "price": 29,
+    "priceDisplay": "$29",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "My team is obsessed with this too. It's just that good.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/img-product-1776780693463",
+    "affiliateUrl": "https://shopmy.us/shop/product/1717?Curator_id=366029",
+    "imageColor": "#E8DDD0"
+  },
+  {
+    "id": "shopmy-42",
+    "name": "Petite Petal Edition Set",
+    "brand": "",
+    "category": "fashion",
+    "price": 60,
+    "priceDisplay": "$60",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "I found this and couldn't stop recommending it. Absolute favorite.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1760536876140",
+    "affiliateUrl": "https://shopmy.us/shop/product/756580?Curator_id=366029",
+    "imageColor": "#F0ECE8"
+  },
+  {
+    "id": "shopmy-43",
+    "name": "Kidman Feathered Jacket",
+    "brand": "",
+    "category": "fashion",
+    "price": 1595,
+    "priceDisplay": "$1,595",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "Genuinely one of my favorite finds. So good.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/pretty-prod-1769102134783",
+    "affiliateUrl": "https://shopmy.us/shop/product/1808434?Curator_id=366029",
+    "imageColor": "#C8B89A"
+  },
+  {
+    "id": "shopmy-44",
+    "name": "Creator",
+    "brand": "",
+    "category": "fashion",
+    "price": 620,
+    "priceDisplay": "$620",
+    "editorialNote": "A Reese staple — the kind of piece that looks effortless and feels even better than it looks.",
+    "whyReeseLovesIt": "This is the real deal. I use it constantly.",
+    "tags": [
+      "fashion",
+      "reese picks",
+      "shopmy"
+    ],
+    "imageUrl": "https://static.shopmy.us/uploads/img-user-deres-366029-1765377887561",
+    "affiliateUrl": "",
+    "imageColor": "#E8D8C8"
   }
 ]
